@@ -10,6 +10,7 @@ With Automator, create a new "Application" project, and add
 the action "Run Shell Script" with this command:
 
 ```bash
+export JAVA_HOME=<PATH_TO_JAVA_8_INSTALLATION>
 cd <PATH_TO_DIGITAL_FOLDER>/distribution/macos && ./Digital.sh &> /dev/null &
 ```
 
